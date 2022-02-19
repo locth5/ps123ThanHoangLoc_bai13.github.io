@@ -1,0 +1,79 @@
+.boxcenter{
+    width:80%;
+    margin: 0 auto;
+}
+.header{
+    width:100%;
+    min-height:150px;
+    border: 1px solid #ccc;
+}
+.header img{
+    width:100%;
+}
+.menu{
+    width:100%;
+    height:40px;
+    border: 1px solid #ccc;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.boxleft{
+    float:left;
+    width: 70%;
+    min-height: 600px;
+    border: 1px solid #ccc;
+    /*định vị lớp cha*/
+    position: relative;
+}
+.boximg{
+    float:left;
+    width: 150px;
+    height: 200px;
+    border: 1px solid #ccc;
+    top: 20px;
+    left:20px;
+    /*định vị lớp con có thuộc tính absolute (tương đối) trên lớp cha */
+    position: absolute;
+}
+.boximg img{
+    float: left;
+    width:100%;
+}
+.boxcata{
+    bottom: 10px;
+    left: 10px;
+    position: absolute;
+    color: #f00;
+    background-image: linear-gradient(to left, rgba(218, 220, 231, 0), rgb(60, 221, 221));
+}
+/*Hình 2 */
+.boximg1{
+    float:left;
+    width: 150px;
+    height: 200px;
+    border: 1px solid #ccc;
+    top: 20px;
+    left:190px;
+    /*định vị lớp con có thuộc tính absolute (tương đối) trên lớp cha */
+    position: absolute;
+}
+.boximg1 img{
+    float: left;
+    width:100%;
+}
+/* hình 3*/
+.boximg2{
+    float:left;
+    width: 150px;
+    height: 200px;
+    border: 1px solid #ccc;
+    top: 20px;
+    left:360px;
+    /*định vị lớp con có thuộc tính absolute (tương đối) trên lớp cha */
+    position: absolute;
+}
+.boximg2 img{
+    float: left;
+    width:100%;
+}
